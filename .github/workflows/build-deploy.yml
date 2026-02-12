@@ -29,11 +29,14 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Create dist directory
+        run: mkdir -p dist
+
       - name: Minify JS
         run: npx terser src/js/kofi.js -o dist/kofi.min.js -c -m
 
       - name: Minify CSS
-        run: npx cssnano src/css/kofi.css -o dist/kofi.min.css
+        run: npx csso-cli src/css/kofi.css -o dist/kofi.min.css
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
