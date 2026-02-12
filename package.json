@@ -1,0 +1,26 @@
+{
+  "name": "kofi",
+  "version": "0.0.1",
+  "description": "Ultra light UI library",
+  "keywords": [
+    "ui"
+  ],
+  "homepage": "https://github.com/ashishnitw/kofi#readme",
+  "bugs": {
+    "url": "https://github.com/ashishnitw/kofi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishnitw/kofi.git"
+  },
+  "license": "ISC",
+  "author": "Ashish R",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
