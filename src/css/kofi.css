@@ -1,0 +1,41 @@
+/* Kofi UI Library - Base Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Button Component */
+.kofi-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.kofi-btn:hover {
+  background-color: #0056b3;
+}
+
+.kofi-btn:active {
+  opacity: 0.8;
+}
+
+/* Card Component */
+.kofi-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.kofi-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
